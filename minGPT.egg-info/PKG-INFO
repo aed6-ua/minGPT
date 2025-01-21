@@ -1,4 +1,4 @@
-Metadata-Version: 2.2
+Metadata-Version: 2.1
 Name: minGPT
 Version: 0.0.1
 Summary: A PyTorch re-implementation of GPT
@@ -6,7 +6,3 @@ Author: Andrej Karpathy
 License: MIT
 License-File: LICENSE
 Requires-Dist: torch
-Dynamic: author
-Dynamic: license
-Dynamic: requires-dist
-Dynamic: summary

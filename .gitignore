@@ -1,5 +1,6 @@
 .ipynb_checkpoints/
 __pycache__/
+minGPT.egg-info/
 *.swp
 .env
 .pylintrc
