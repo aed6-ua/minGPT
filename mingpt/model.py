@@ -275,6 +275,9 @@ class GPT(nn.Module):
             if save_activations:
                 self.activations.append(x.detach().clone())
             if patch_embedding and patch_embedding['layer'] == i:
+                # DEBUG
+                #print(x.shape)
+                #print(patch_embedding['embedding'].shape)
                 x[:, patch_embedding['position'], :] = patch_embedding['embedding']
             x = block(x)
 
